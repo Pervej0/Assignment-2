@@ -6,6 +6,9 @@
   padding: 0px;
   outline: 0;
 }
+body {
+  background-color: #ffffff;
+}
 
 /*======== Common style =======*/
 .inline {
@@ -305,4 +308,154 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+/*================ Tablet break  ==============*/
+
+@media only screen and (max-width: 1026px) {
+  .menu {
+    padding-top: 33px;
+  }
+
+  .banner_intro,
+  .Highlights_title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .banner_imgBox img,
+  .Highlights_imgBox img {
+    width: 100%;
+    height: auto;
+  }
+
+  .header_size,
+  .container {
+    padding: 0px 18px;
+  }
+
+  .player_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .player_img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Highlights {
+    margin-top: 120px;
+    margin-bottom: 126px;
+  }
+}
+
+/*================ Mobile-1 break  ==============*/
+
+@media only screen and (max-width: 765px) {
+  .header_size {
+    padding: 0px 16px;
+  }
+
+  .container {
+    padding: 0px 12px;
+  }
+
+  #menu_mobile {
+    display: block;
+  }
+
+  .menu_list {
+    display: none;
+  }
+
+  .banner {
+    padding-bottom: 61px;
+    padding-top: 46px;
+  }
+
+  .banner_intro {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .Highlights_title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .player {
+    margin-top: 55px;
+  }
+
+  .player_grid {
+    gap: 24px;
+  }
+
+  .Highlights {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .Highlights_grid {
+    column-gap: 46px;
+  }
+
+  .footer_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*================ Mobile-2 break  ==============*/
+
+@media only screen and (max-width: 765px) {
+  .inline {
+    flex-direction: column;
+  }
+
+  .banner_intro {
+    margin-bottom: 30px;
+  }
+
+  .player {
+    margin-top: 47px;
+  }
+
+  .player_grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px 0px;
+  }
+
+  .Highlights {
+    margin-top: 60px;
+    margin-bottom: 43px;
+  }
+
+  .Highlights_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Highlights_description {
+    margin-bottom: 29px;
+  }
+
+  .sponsor {
+    padding-bottom: 43px;
+  }
+
+  .footer_small {
+    margin-top: 43px;
+    margin-bottom: 25px;
+  }
+
+  .footer_logo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 29px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .footer_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

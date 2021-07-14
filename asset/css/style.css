@@ -60,6 +60,7 @@ header {
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
+  line-height: 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding-right: 36px;
@@ -68,6 +69,7 @@ header {
 .menu_btn {
   padding: 10px 24px 10px 24px;
   font-size: 16px;
+  line-height: 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   background-color: #e02c6d;
@@ -99,7 +101,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 64px;
   line-height: 80px;
 }
 
@@ -136,7 +138,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #18191f;
-  font-size: 20px;
+  font-size: 28px;
   line-height: 40px;
   margin-top: 16px;
   margin-bottom: 10px;
@@ -146,8 +148,8 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #6c6c6c;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 /*=========== HiHighlights part style ===========*/
@@ -308,7 +310,7 @@ header {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
 }
 
@@ -376,12 +378,12 @@ header {
   }
 
   .banner_intro {
-    font-size: 35px;
+    font-size: 36px;
     line-height: 50px;
   }
 
   .Highlights_title {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 50px;
   }
 
@@ -407,9 +409,9 @@ header {
   }
 }
 
-/*================ Mobile-2 break  ==============*/
+/* ================ Mobile-2 break  ==============*/
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 667px) {
   .inline {
     flex-direction: column;
   }
@@ -432,6 +434,11 @@ header {
     margin-bottom: 43px;
   }
 
+  .Highlights_title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
   .Highlights_grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -442,6 +449,10 @@ header {
 
   .sponsor {
     padding-bottom: 43px;
+  }
+
+  .footer_title {
+    font-size: 26px;
   }
 
   .footer_small {

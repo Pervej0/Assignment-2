@@ -199,3 +199,110 @@ header {
   flex-wrap: wrap;
   text-align: center;
 }
+
+/*=============== Footer part style =============*/
+
+.footer_big {
+  background-color: #2d25a0;
+  padding: 40px 0px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: baseline;
+  gap: 25px;
+}
+
+.footer_title {
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-size: 27px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.footer_column ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer_column ul a {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 30px;
+  color: #ffffff;
+  letter-spacing: 0.4px;
+  font-size: 15px;
+}
+
+.footer_column ul a:hover {
+  text-decoration: underline;
+}
+
+.footer_column ul small {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 13;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer_column ul a img {
+  width: 150px;
+  display: inline;
+}
+
+/*----- small footer part style -----*/
+
+.footer_small {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.footer_smallFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.footer_logo img {
+  width: 484px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.footer_socialIcon {
+  margin-bottom: 20px;
+}
+
+.footer_socialIcon a {
+  margin-right: 14px;
+}
+
+.footer_socialIcon a i {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 32px;
+  width: 32px;
+  background-color: #e7e7e8;
+  border-radius: 50%;
+  color: #969bab;
+}
+
+.footer_endingText p {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}

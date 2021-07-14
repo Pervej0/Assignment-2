@@ -103,3 +103,99 @@ header {
   width: 556px;
   height: 438px;
 }
+
+/*======= Player part style  =========*/
+
+.player {
+  margin-top: 70px;
+}
+
+.player_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+
+.player article {
+  padding: 15px;
+  -webkit-box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.48);
+  box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.48);
+}
+
+.player_img img {
+  max-width: 300px;
+  height: 256px;
+}
+
+.player_name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #18191f;
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.player_info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #6c6c6c;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/*=========== HiHighlights part style ===========*/
+
+.Highlights {
+  margin-top: 165px;
+  margin-bottom: 158px;
+}
+
+.Highlights_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 69px;
+}
+
+.Highlights_title {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #0a0826;
+  line-height: 60px;
+  margin-bottom: 8px;
+}
+
+.Highlights_description {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+.Highlights_imgBox img {
+  max-width: 567px;
+  height: 427px;
+}
+
+/*============== Sponsors part style  =============*/
+
+.sponsor {
+  padding-bottom: 50px;
+}
+
+.sponsor_field img {
+  height: 42px;
+  width: 60px;
+  padding: 20px;
+}
+
+.sponsor_field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}

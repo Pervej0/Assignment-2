@@ -68,6 +68,7 @@ header {
 
 .menu_btn {
   padding: 10px 24px 10px 24px;
+  display: inline-block;
   font-size: 16px;
   line-height: 24px;
   font-family: "Poppins", sans-serif;
@@ -97,12 +98,13 @@ header {
   justify-content: space-between;
 }
 
-.banner_intro {
+.banner_introText {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #ffffff;
   font-size: 64px;
   line-height: 80px;
+  margin-bottom: 27px;
 }
 
 .banner_imgBox img {
@@ -134,7 +136,7 @@ header {
   height: 256px;
 }
 
-.player_name {
+.player_name h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #18191f;
@@ -179,6 +181,10 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #6c6c6c;
+}
+
+#watchNow {
+  margin-top: 24px;
 }
 
 .Highlights_imgBox img {
@@ -377,7 +383,7 @@ header {
     padding-top: 46px;
   }
 
-  .banner_intro {
+  .banner_introText {
     font-size: 36px;
     line-height: 50px;
   }
@@ -417,6 +423,10 @@ header {
   }
 
   .banner_intro {
+    margin-bottom: 50px;
+  }
+
+  .banner_introText {
     margin-bottom: 30px;
   }
 
@@ -443,7 +453,7 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .Highlights_description {
+  #watchNow {
     margin-bottom: 29px;
   }
 

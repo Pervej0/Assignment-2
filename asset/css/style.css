@@ -290,6 +290,7 @@ header {
 
 .footer_socialIcon a {
   margin-right: 14px;
+  text-decoration: none;
 }
 
 .footer_socialIcon a i {
